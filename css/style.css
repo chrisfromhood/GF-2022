@@ -1,0 +1,369 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header-logo {
+  height: 6rem;
+  width: auto;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 13rem;
+  background-color: white;
+  padding: 0 3.2rem;
+}
+
+.nav-menu {
+  display: flex;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: inherit;
+}
+
+.btn-heading {
+  margin-left: 16.8rem;
+  width: 18.5rem;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  background-color: #f9f9f9;
+}
+
+.heading-primary b {
+  font-weight: 900;
+  color: #304f95;
+}
+
+.hero-description {
+  margin-top: 3.2rem;
+  font-family: HelveticaNeueCyr;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: #343b43;
+}
+
+/**************************/
+/* HERO-FORM */
+/**************************/
+
+.hero-form-wrapper {
+  background-color: #fff;
+  box-shadow: 0px 4px 40px 0px #0000000f;
+  margin-top: 5.4rem;
+  min-width: 45rem;
+}
+
+.hero-form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.hero-form-name {
+  display: flex;
+  flex: 1 0 45rem;
+  position: relative;
+  margin: 0.8rem;
+}
+
+.hero-form-phone {
+  display: flex;
+  flex: 1 0 45rem;
+  position: relative;
+  margin: 0.8rem;
+}
+
+.hero-form input {
+  flex: 1 0 37rem;
+  height: 5.6rem;
+  padding-left: 6.7rem;
+  margin-right: 1.6rem;
+  background-color: #fafafa;
+  border: 1px solid #f0f0f0;
+  align-items: center;
+  font-family: "RNSPhysis", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  border-radius: 4px;
+  text-align: left;
+  transition: border 0.35s ease;
+}
+
+.hero-form input :focus {
+  border-color: #304f95;
+}
+
+.small-icon {
+  position: absolute;
+  color: #d2d4d5;
+  transition: color 0.35s ease;
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.user-icon {
+  left: 15px;
+  top: 15px;
+}
+.phone-icon {
+  left: 15px;
+  top: 15px;
+}
+
+.user-icon :focus,
+.phone-icon :focus {
+  border-color: #304f95;
+}
+.hero-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-cta {
+  margin-left: 3.6rem;
+  white-space: nowrap;
+}
+
+/**************************/
+/* PROVEN STRATEGIES SECTION */
+/**************************/
+
+.proven-strategies-grid {
+  display: grid;
+  grid-template-columns: 46% auto;
+  grid-template-rows: minmax(max-content, auto);
+  grid-column-gap: 4rem;
+  grid-row-gap: 3rem;
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.proven-strategies-title {
+  grid-area: title;
+}
+
+.proven-strategies-text {
+  grid-area: text;
+}
+
+.proven-strategies-img {
+  grid-area: img;
+}
+
+.sub-heading {
+  font-family: "RNSPhysis", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  color: #304f95;
+  margin: 2rem 0rem;
+}
+
+.regular-text {
+  font-family: HelveticaNeueCyr;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8rem;
+  text-align: left;
+  color: #343b43;
+}
+
+/**************************/
+/*  WHAT WE DO SECTION */
+/**************************/
+.what-we-do {
+  background-color: #fff;
+}
+.what-we-do-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 11.5rem auto;
+  grid-column-gap: 4rem;
+  grid-row-gap: 3rem;
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.what-we-do-title {
+  grid-area: title;
+}
+
+.what-we-do-img {
+  grid-area: img;
+}
+
+.what-we-do-text {
+  grid-area: text;
+}
+
+/**************************/
+/*  FOOTER */
+/**************************/
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 4rem;
+  grid-row-gap: 3rem;
+  grid-template-areas:
+    "discuss contact"
+    "social useful"
+    "copyright .";
+}
+
+.ready-to-discuss {
+  grid-area: discuss;
+  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+}
+
+.contact-us {
+  grid-area: contact;
+  background-color: #fff;
+}
+
+.footer-heading {
+  font-style: normal;
+  line-height: 4.6rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-bottom: 5rem;
+}
+
+.footer-form input {
+  border: 0;
+  border-bottom: 2px solid #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+  height: 5.4rem;
+  display: block;
+  padding-left: 4.6rem;
+}
+
+.footer-form-name {
+  margin-bottom: 3.3rem;
+  position: relative;
+}
+
+.footer-form-phone {
+  margin-bottom: 4.8rem;
+  position: relative;
+}
+
+.footer-email {
+  font-family: RNS Physis;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 3.1rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #304f95;
+}
+
+.footer-email a {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 4.2rem;
+}
+.footer-email a:hover {
+  color: #304f95;
+}
+
+.footer-number {
+  font-family: RNS Physis;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 6rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #304f95;
+}
+
+.footer-number a {
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 4.16rem;
+}
+
+.useful-links {
+  grid-area: useful;
+  background-color: #fff;
+}
+
+.ul-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50rem;
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-wrapper .item {
+  font-family: RNS Physis;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.1rem;
+  letter-spacing: -0.02em;
+  text-align: left;
+  list-style: none;
+}
+
+.footer-soc {
+  margin-top: 7.8rem;
+  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  grid-area: copyright;
+  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+  font-family: RNS Physis;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.9rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
