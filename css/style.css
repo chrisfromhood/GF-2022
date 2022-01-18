@@ -113,8 +113,12 @@
   transition: border 0.35s ease;
 }
 
-.hero-form input :focus {
-  border-color: #304f95;
+.hero-form input:focus {
+  outline: solid 1px #304f95;
+}
+
+.small-icon:focus {
+  fill: #304f95;
 }
 
 .small-icon {
@@ -233,15 +237,11 @@
   grid-template-columns: 50% 50%;
   grid-column-gap: 4rem;
   grid-row-gap: 3rem;
-  grid-template-areas:
-    "discuss contact"
-    "social useful"
-    "copyright .";
+  grid-template-areas: "discuss contact";
 }
 
 .ready-to-discuss {
   grid-area: discuss;
-  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
 }
 
 .contact-us {
@@ -272,14 +272,44 @@
   padding-left: 4.6rem;
 }
 
+.footer-form input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.footer-form input:focus {
+}
+
+.footer-form-name,
+.footer-form-phone {
+  position: relative;
+  min-width: 34.4rem;
+  max-width: 54.4rem;
+}
 .footer-form-name {
   margin-bottom: 3.3rem;
-  position: relative;
 }
 
 .footer-form-phone {
   margin-bottom: 4.8rem;
-  position: relative;
+}
+
+.cta-inverse {
+  background: none;
+  background-color: #fff;
+  color: #304f95;
+  padding: 2rem 4.8rem;
+}
+
+.footer-icon {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: #fff;
+  fill: #fff;
+  transition: color 0.35s ease;
+  width: 2.7rem;
+  height: 2.7rem;
 }
 
 .footer-email {
@@ -349,7 +379,6 @@
 
 .footer-soc {
   margin-top: 7.8rem;
-  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.2;
@@ -358,7 +387,6 @@
 
 .footer-copyright {
   grid-area: copyright;
-  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
   font-family: RNS Physis;
   font-size: 1.6rem;
   font-style: normal;

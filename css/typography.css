@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "RNSPhysis";
+  src: url ("../fonts/RNSPhysis/RNSPhysis-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff2");
+}

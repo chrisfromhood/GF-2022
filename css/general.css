@@ -36,6 +36,15 @@ body {
   color: #343b43 !important;
 }
 
+.bg-footer {
+  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
 /**************************/
 /* MARGINS */
 /**************************/
@@ -99,6 +108,7 @@ body {
   font-size: 2rem;
   font-weight: 500;
   align-items: center;
+  border: none;
 }
 
 .svg {
