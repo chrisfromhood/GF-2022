@@ -235,8 +235,6 @@
 .footer-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-column-gap: 4rem;
-  grid-row-gap: 3rem;
   grid-template-areas: "discuss contact";
 }
 
@@ -247,6 +245,8 @@
 .contact-us {
   grid-area: contact;
   background-color: #fff;
+  padding-top: 3rem;
+  padding-left: 12.5rem;
 }
 
 .footer-heading {
@@ -254,7 +254,7 @@
   line-height: 4.6rem;
   letter-spacing: -0.02em;
   text-align: left;
-  padding-bottom: 5rem;
+  padding-bottom: 5.8rem;
 }
 
 .footer-form input {
@@ -278,6 +278,7 @@
 }
 
 .footer-form input:focus {
+  outline: none;
 }
 
 .footer-form-name,
@@ -299,20 +300,21 @@
   background-color: #fff;
   color: #304f95;
   padding: 2rem 4.8rem;
+  align-self: center;
 }
 
 .footer-icon {
   position: absolute;
-  left: 15px;
+  left: 5px;
   top: 15px;
-  color: #fff;
-  fill: #fff;
   transition: color 0.35s ease;
-  width: 2.7rem;
-  height: 2.7rem;
 }
 
-.footer-email {
+.footer-text-wrapper {
+  padding-bottom: 4rem;
+}
+
+.footer-text-wrapper p {
   font-family: RNS Physis;
   font-size: 2.4rem;
   font-style: normal;
@@ -321,25 +323,15 @@
   letter-spacing: -0.02em;
   text-align: left;
   color: #304f95;
+  padding-bottom: 1.2rem;
 }
 
-.footer-email a {
+.email-link {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.2rem;
 }
 .footer-email a:hover {
-  color: #304f95;
-}
-
-.footer-number {
-  font-family: RNS Physis;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 6rem;
-  letter-spacing: -0.02em;
-  text-align: left;
   color: #304f95;
 }
 
@@ -356,14 +348,17 @@
 
 .ul-wrapper {
   display: flex;
-  justify-content: space-between;
-  padding-right: 50rem;
 }
 
 .col-1,
 .col-2 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 8.6rem;
+}
+
+.col-1 {
+  padding-right: 12.6rem;
 }
 
 .ul-wrapper .item {
@@ -384,14 +379,20 @@
   line-height: 1.2;
   flex-wrap: wrap;
 }
+.footer-soc a {
+  padding-right: 3rem;
+  color: #fff;
+}
 
 .footer-copyright {
   grid-area: copyright;
   font-family: RNS Physis;
+  color: #fff;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 300;
   line-height: 1.9rem;
   letter-spacing: 0em;
   text-align: left;
+  padding-top: 9rem;
 }
