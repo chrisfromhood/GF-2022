@@ -1,0 +1,18 @@
+/*Big tablets to 1200px (widths smaller that the 1140px row)  */
+@media only screen and (max-width: 1440px) {
+  .contact-us {
+    padding: 0rem 6rem;
+  }
+  .footer-form {
+    padding-right: 0rem;
+  }
+  .footer-form input {
+    width: 80%;
+  }
+  .footer-soc {
+    width: 80%;
+  }
+  .footer-copyright {
+    font-size: 1.4rem;
+  }
+}

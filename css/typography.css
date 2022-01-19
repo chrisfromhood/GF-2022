@@ -1,9 +1,35 @@
 @font-face {
   font-family: "RNSPhysis";
-  src: url("../fonts/RNSPhysis/RNSPhysis-Medium.woff2") format("woff2");
+  font-weight: 400;
+  src: url("../fonts/RNSPhysis/RNSPhysis-Medium.woff2");
+}
+
+@font-face {
+  font-family: "RNSPhysis";
+  font-weight: 700;
+  src: url("../fonts/RNSPhysis/RNSPhysis-Bold.woff2");
+}
+
+@font-face {
+  font-family: "RNSPhysis";
+  font-weight: 300;
+  src: url("../fonts/RNSPhysis/RNSPhysis-Light.woff2");
+}
+
+@font-face {
+  font-family: "RNSPhysis";
+  font-weight: 900;
+  src: url("../fonts/RNSPhysis/RNSPhysis-Black.woff2");
 }
 
 @font-face {
   font-family: "HelveticaNeueCyr";
-  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff2");
+  font-weight: 400;
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff");
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  font-weight: 300;
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff");
 }

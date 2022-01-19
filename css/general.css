@@ -26,7 +26,7 @@ body {
   padding: 0 4.8rem;
   max-width: 164.2rem;
   margin: 0 auto;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 .c-white {
@@ -36,8 +36,15 @@ body {
   color: #343b43 !important;
 }
 
-.bg-footer {
-  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+.bg-color {
+  background-color: #347bce;
+}
+
+.container-footer {
+  width: 100%;
+  max-width: 164.2rem;
+  margin: 0 auto;
+  background-color: #347bce;
 }
 
 .col {
@@ -87,7 +94,6 @@ body {
   font-size: 4.2rem;
   line-height: 1.1;
   font-weight: 700;
-  font-family: "RNSPhysis", sans-serif;
   color: #304f95;
 }
 /**************************/
@@ -121,7 +127,7 @@ a {
   color: #343b43;
 }
 
-a:hover {
-  color: #343b43;
-  text-decoration: none;
+a,
+button {
+  transition: color 0.35s ease, background 0.35s ease, border 0.35s ease;
 }

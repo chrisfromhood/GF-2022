@@ -103,7 +103,6 @@
   background-color: #fafafa;
   border: 1px solid #f0f0f0;
   align-items: center;
-  font-family: "RNSPhysis", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
@@ -181,7 +180,6 @@
 }
 
 .sub-heading {
-  font-family: "RNSPhysis", sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.2;
@@ -226,173 +224,4 @@
 
 .what-we-do-text {
   grid-area: text;
-}
-
-/**************************/
-/*  FOOTER */
-/**************************/
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "discuss contact";
-}
-
-.ready-to-discuss {
-  grid-area: discuss;
-}
-
-.contact-us {
-  grid-area: contact;
-  background-color: #fff;
-  padding-top: 3rem;
-  padding-left: 12.5rem;
-}
-
-.footer-heading {
-  font-style: normal;
-  line-height: 4.6rem;
-  letter-spacing: -0.02em;
-  text-align: left;
-  padding-bottom: 5.8rem;
-}
-
-.footer-form input {
-  border: 0;
-  border-bottom: 2px solid #fff;
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 2.4rem;
-  letter-spacing: -0.02em;
-  color: #fff;
-  background-color: transparent;
-  width: 100%;
-  height: 5.4rem;
-  display: block;
-  padding-left: 4.6rem;
-}
-
-.footer-form input::placeholder {
-  color: #fff;
-  opacity: 1;
-}
-
-.footer-form input:focus {
-  outline: none;
-}
-
-.footer-form-name,
-.footer-form-phone {
-  position: relative;
-  min-width: 34.4rem;
-  max-width: 54.4rem;
-}
-.footer-form-name {
-  margin-bottom: 3.3rem;
-}
-
-.footer-form-phone {
-  margin-bottom: 4.8rem;
-}
-
-.cta-inverse {
-  background: none;
-  background-color: #fff;
-  color: #304f95;
-  padding: 2rem 4.8rem;
-  align-self: center;
-}
-
-.footer-icon {
-  position: absolute;
-  left: 5px;
-  top: 15px;
-  transition: color 0.35s ease;
-}
-
-.footer-text-wrapper {
-  padding-bottom: 4rem;
-}
-
-.footer-text-wrapper p {
-  font-family: RNS Physis;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 3.1rem;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #304f95;
-  padding-bottom: 1.2rem;
-}
-
-.email-link {
-  font-size: 3.2rem;
-  font-weight: 500;
-  line-height: 4.2rem;
-}
-.footer-email a:hover {
-  color: #304f95;
-}
-
-.footer-number a {
-  font-weight: 900;
-  font-size: 3.2rem;
-  line-height: 4.16rem;
-}
-
-.useful-links {
-  grid-area: useful;
-  background-color: #fff;
-}
-
-.ul-wrapper {
-  display: flex;
-}
-
-.col-1,
-.col-2 {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8.6rem;
-}
-
-.col-1 {
-  padding-right: 12.6rem;
-}
-
-.ul-wrapper .item {
-  font-family: RNS Physis;
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 3.1rem;
-  letter-spacing: -0.02em;
-  text-align: left;
-  list-style: none;
-}
-
-.footer-soc {
-  margin-top: 7.8rem;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.2;
-  flex-wrap: wrap;
-}
-.footer-soc a {
-  padding-right: 3rem;
-  color: #fff;
-}
-
-.footer-copyright {
-  grid-area: copyright;
-  font-family: RNS Physis;
-  color: #fff;
-  font-size: 1.6rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 1.9rem;
-  letter-spacing: 0em;
-  text-align: left;
-  padding-top: 9rem;
 }
