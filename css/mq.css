@@ -16,3 +16,19 @@
     font-size: 1.4rem;
   }
 }
+
+/* @media (min-width: 1200px) {
+  .title {
+    font-size: 3.8rem;
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    font-size: 3.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.2rem;
+  }
+} */
