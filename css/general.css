@@ -16,6 +16,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #343b43;
+  background-color: #fafafa;
 }
 
 img,
@@ -46,7 +47,6 @@ canvas {
   padding: 0 4.8rem;
   max-width: 164.2rem;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 .container-footer {
@@ -57,10 +57,9 @@ canvas {
 }
 
 .container-what-we-do {
-  max-width: 172.7rem;
+  max-width: 150rem;
   width: 100%;
-  margin: 0 auto;
-  background-color: #fff;
+  margin: 0 11rem;
 }
 
 .c-white {
@@ -97,6 +96,27 @@ canvas {
 .mb-135 {
   margin-bottom: 13.5rem;
 }
+.mt-30 {
+  margin-top: 3rem;
+}
+.ml-48 {
+  margin-left: 4.8rem;
+}
+
+.px-35 {
+  padding-left: 3.5rem !important;
+  padding-right: 3.5rem !important;
+}
+
+.px-40 {
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.px-45 {
+  padding-left: 4.5rem !important;
+  padding-right: 4.5rem !important;
+}
 
 /**************************/
 /* HEADINGS */
@@ -104,8 +124,9 @@ canvas {
 
 .heading-primary {
   font-family: "RNSPhysis", sans-serif;
-  font-size: 5.4rem;
+  font-size: 6.4rem;
   line-height: 1.1;
+  font-weight: 900;
 }
 
 .heading-secondary {

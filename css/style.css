@@ -15,7 +15,6 @@
   justify-content: space-between;
   height: 13rem;
   background-color: white;
-  padding: 0 3.2rem;
 }
 
 .nav-menu {
@@ -25,7 +24,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 5rem;
 }
 
 .main-nav-link {
@@ -35,14 +34,15 @@
 }
 
 .btn-heading {
-  margin-left: 16.8rem;
+  display: flex;
+  justify-content: end;
   width: 18.5rem;
 }
 
 .section-hero {
   display: flex;
   flex-direction: column;
-  padding: 10rem;
+  padding: 10rem 11rem 8rem 11rem;
   background-color: #f9f9f9;
 }
 
@@ -214,7 +214,7 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: 11.5rem auto;
   grid-column-gap: 4rem;
-  grid-row-gap: 3rem;
+  grid-row-gap: 10rem;
   grid-template-areas:
     "title img"
     "text img";
@@ -222,12 +222,49 @@
 
 .what-we-do-title {
   grid-area: title;
+  margin-left: 7.4rem;
 }
 
 .what-we-do-img {
   grid-area: img;
+  justify-self: flex-start;
+  align-self: end;
+}
+.svg-1 {
+  max-width: 75rem;
 }
 
 .what-we-do-text {
   grid-area: text;
 }
+
+/* .hexagon {
+  display: grid;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  padding: 8rem 0rem;
+  background: #304f95;
+  position: relative;
+  left: 100px;
+  height: 100%;
+}
+.hexagon::before,
+.hexagon::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 0; */
+/* half height */
+/* border-top: 26rem solid transparent;
+  border-bottom: 26rem solid transparent; */
+/* } */
+/* .hexagon::before {
+  left: -100px;
+  border-right: 100px solid #304f95;
+}
+.hexagon::after {
+  right: -100px;
+  border-left: 100px solid #304f95;
+} */
