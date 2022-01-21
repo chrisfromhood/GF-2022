@@ -51,22 +51,15 @@ canvas {
 
 .page-header {
   width: 100%;
-  padding: 0 20.6rem;
   max-width: 192rem;
   background-color: #fff;
 }
 
-.container-footer {
-  width: 100%;
-  max-width: 164.2rem;
-  margin: 0 auto;
-  background-color: #347bce;
-}
-
 .container-what-we-do {
-  max-width: 150rem;
+  max-width: 192rem;
+  padding: 0 20.6rem;
   width: 100%;
-  margin: 0 11rem;
+  margin: 0 auto;
 }
 
 .c-white {

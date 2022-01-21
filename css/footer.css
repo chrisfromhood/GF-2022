@@ -1,6 +1,12 @@
 /**************************/
 /*  FOOTER */
 /**************************/
+.container-footer {
+  width: 100%;
+  padding-left: 20.6rem;
+  max-width: 192rem;
+  background-color: #347bce;
+}
 
 .footer-grid {
   display: grid;
@@ -24,7 +30,6 @@
 
 .ready-to-discuss {
   grid-area: discuss;
-  padding-left: 5rem;
   min-width: 55.6rem;
 }
 
@@ -122,7 +127,8 @@
 .contact-us {
   grid-area: contact;
   background-color: #fff;
-  padding: 0rem 12.5rem;
+  padding-left: 12.5rem;
+  padding-right: 20.5rem;
   z-index: 10;
 }
 
@@ -209,10 +215,15 @@
 /**************************/
 /*  FOOTER- CONTACT US */
 /**************************/
+.container-copyright {
+  width: 100%;
+  padding-left: 20.6rem;
+  max-width: 192rem;
+  background: linear-gradient(to right, #347bce 50%, #fff 50%);
+}
 
 .footer-copyright {
   grid-area: copyright;
-  padding-left: 5rem;
   color: #fff;
   font-size: 1.6rem;
   font-style: normal;
@@ -221,4 +232,9 @@
   letter-spacing: 0em;
   text-align: left;
   white-space: nowrap;
+}
+
+.one-half-white {
+  background: #fff;
+  background-size: 300px 100px;
 }
