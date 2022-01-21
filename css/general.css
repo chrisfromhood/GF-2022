@@ -44,9 +44,16 @@ canvas {
 
 .container {
   width: 100%;
-  padding: 0 4.8rem;
-  max-width: 164.2rem;
+  padding: 0 20.6rem;
+  max-width: 192rem;
   margin: 0 auto;
+}
+
+.page-header {
+  width: 100%;
+  padding: 0 20.6rem;
+  max-width: 192rem;
+  background-color: #fff;
 }
 
 .container-footer {
@@ -74,6 +81,9 @@ canvas {
 }
 .bg-color-grey {
   background-color: #fbfbfb;
+}
+.bg-color-white {
+  background-color: #fff;
 }
 
 .col {
