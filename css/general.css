@@ -110,6 +110,9 @@ canvas {
   padding-left: 3.5rem !important;
   padding-right: 3.5rem !important;
 }
+.pl-60 {
+  padding-left: 6rem;
+}
 
 .px-40 {
   padding-left: 4rem !important;
@@ -119,6 +122,14 @@ canvas {
 .px-45 {
   padding-left: 4.5rem !important;
   padding-right: 4.5rem !important;
+}
+
+.pb-74 {
+  padding-bottom: 7.4rem;
+}
+
+.pb-180 {
+  padding-bottom: 18rem;
 }
 
 /**************************/
