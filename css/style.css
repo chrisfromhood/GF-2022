@@ -38,6 +38,10 @@
   width: 18.5rem;
 }
 
+/**************************/
+/* SECTION - HERO */
+/**************************/
+
 .section-hero {
   display: flex;
   flex-direction: column;
@@ -151,10 +155,6 @@
 /**************************/
 /* PROVEN STRATEGIES SECTION */
 /**************************/
-
-.main-content {
-  padding-top: 5.6rem;
-}
 
 .proven-strategies-grid {
   display: grid;

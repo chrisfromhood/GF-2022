@@ -2,16 +2,17 @@
 /*  FOOTER */
 /**************************/
 .container-footer {
+  /* display: flex; */
   width: 100%;
-  padding-left: 20.6rem;
-  max-width: 192rem;
-  background-color: #347bce;
+  padding: 0 11%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #347bce 50%, #fff 50%);
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat (autofit, minmax(55rem, 50%));
-  grid-template-areas: "discuss contact";
+.footer-flex {
+  display: flex;
+  /* grid-template-columns: repeat (autofit, minmax(55rem, 50%));
+  grid-template-areas: "discuss contact"; */
 }
 
 .footer-heading {
@@ -30,7 +31,8 @@
 
 .ready-to-discuss {
   grid-area: discuss;
-  min-width: 55.6rem;
+  width: 50%;
+  flex-shrink: 0;
 }
 
 .footer-form {
@@ -126,10 +128,10 @@
 
 .contact-us {
   grid-area: contact;
+  width: 50%;
+  flex-shrink: 0;
   background-color: #fff;
   padding-left: 12.5rem;
-  padding-right: 20.5rem;
-  z-index: 10;
 }
 
 .footer-text-wrapper {
@@ -215,12 +217,6 @@
 /**************************/
 /*  FOOTER- CONTACT US */
 /**************************/
-.container-copyright {
-  width: 100%;
-  padding-left: 20.6rem;
-  max-width: 192rem;
-  background: linear-gradient(to right, #347bce 50%, #fff 50%);
-}
 
 .footer-copyright {
   grid-area: copyright;
@@ -232,9 +228,4 @@
   letter-spacing: 0em;
   text-align: left;
   white-space: nowrap;
-}
-
-.one-half-white {
-  background: #fff;
-  background-size: 300px 100px;
 }

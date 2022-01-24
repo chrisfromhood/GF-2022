@@ -43,21 +43,19 @@ canvas {
 /**************************/
 
 .container {
+  max-width: 143rem;
   width: 100%;
-  padding: 0 20.6rem;
-  max-width: 192rem;
   margin: 0 auto;
 }
 
-.page-header {
+.container-hero {
+  max-width: 125rem;
   width: 100%;
-  max-width: 192rem;
-  background-color: #fff;
+  margin: 0 auto;
 }
 
 .container-what-we-do {
-  max-width: 192rem;
-  padding: 0 20.6rem;
+  max-width: 165rem;
   width: 100%;
   margin: 0 auto;
 }
