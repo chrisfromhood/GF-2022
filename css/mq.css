@@ -1,36 +1,19 @@
-/*Big tablets to 1200px (widths smaller that the 1140px row)  */
-@media only screen and (max-width: 1440px) {
-  .contact-us {
-    padding: 0rem 6rem;
+//1520px
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: red;
   }
-  .footer-form {
-    padding-right: 0rem;
+
+  .container {
+    max-width: 120rem;
+    background-color: red;
   }
-  .footer-form input {
-    width: 80%;
+
+  .heading-primary {
+    font-size: 5.2rem;
   }
-  .footer-soc {
-    width: 80%;
-  }
-  .footer-copyright {
-    font-size: 1.4rem;
+
+  .svg-1 {
+    max-width: 65rem;
   }
 }
-
-/* @media (min-width: 1200px) {
-  .title {
-    font-size: 3.8rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .title {
-    font-size: 3.6rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .title {
-    font-size: 3.2rem;
-  }
-} */

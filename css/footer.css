@@ -30,9 +30,9 @@
 /**************************/
 
 .ready-to-discuss {
-  grid-area: discuss;
+  /* grid-area: discuss; */
   width: 50%;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .footer-form {
@@ -127,9 +127,9 @@
 /**************************/
 
 .contact-us {
-  grid-area: contact;
+  /* grid-area: contact; */
   width: 50%;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   background-color: #fff;
   padding-left: 12.5rem;
 }
