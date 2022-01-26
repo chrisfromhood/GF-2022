@@ -43,21 +43,15 @@ canvas {
 /**************************/
 
 .container {
+  max-width: 150rem;
   width: 100%;
-  padding: 0 20.6rem;
-  max-width: 192rem;
+  padding: 0 1.5rem;
   margin: 0 auto;
+  overflow: visible;
 }
 
-.page-header {
-  width: 100%;
-  max-width: 192rem;
-  background-color: #fff;
-}
-
-.container-what-we-do {
-  max-width: 192rem;
-  padding: 0 20.6rem;
+.container-hero {
+  max-width: 125rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -110,6 +104,9 @@ canvas {
   padding-left: 3.5rem !important;
   padding-right: 3.5rem !important;
 }
+.pl-60 {
+  padding-left: 6rem;
+}
 
 .px-40 {
   padding-left: 4rem !important;
@@ -119,6 +116,18 @@ canvas {
 .px-45 {
   padding-left: 4.5rem !important;
   padding-right: 4.5rem !important;
+}
+
+.pb-74 {
+  padding-bottom: 7.4rem;
+}
+
+.pb-180 {
+  padding-bottom: 18rem;
+}
+
+.pb-260 {
+  padding-bottom: 26rem;
 }
 
 /**************************/
