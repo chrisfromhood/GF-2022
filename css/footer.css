@@ -1,16 +1,52 @@
 /**************************/
 /*  FOOTER */
 /**************************/
-.container-footer {
-  /* display: flex; */
+.container-footer-wide {
   width: 100%;
   padding: 0 11%;
   margin: 0 auto;
   background: linear-gradient(to right, #347bce 50%, #fff 50%);
 }
 
+.container-footer-medium {
+  display: none;
+  width: 100%;
+  padding: 0 3rem;
+  margin: 0 auto;
+  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+}
+
+.container-footer-medium-white {
+  display: none;
+  width: 100%;
+  padding: 0 3rem;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.container-footer-mobile {
+  display: none;
+  width: 100%;
+  padding: 0 1.2rem;
+  margin: 0 auto;
+  background: linear-gradient(146.83deg, #234dae 8.11%, #347bce 90.67%);
+}
+
 .footer-wide {
   display: flex;
+}
+
+.footer-medium {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  padding: 3rem 0rem 5.7rem;
+}
+
+.footer-mobile {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 3rem 0rem 5.7rem;
 }
 
 .footer-heading {
@@ -21,6 +57,7 @@
   text-align: left;
   margin-bottom: 5rem;
   color: #343b43;
+  white-space: nowrap;
 }
 
 /**************************/
@@ -28,9 +65,7 @@
 /**************************/
 
 .ready-to-discuss {
-  /* grid-area: discuss; */
   width: 50%;
-  /* flex-shrink: 0; */
 }
 
 .footer-form {
@@ -66,8 +101,8 @@
 .footer-form-name,
 .footer-form-phone {
   position: relative;
-  min-width: 34.4rem;
-  max-width: 54.4rem;
+  min-width: 35rem;
+  max-width: 100%;
 }
 .footer-form-name {
   margin-bottom: 3.3rem;
@@ -81,6 +116,8 @@
   background: none;
   background-color: #fff;
   color: #304f95;
+  margin-top: 32px;
+  padding: 0 48px;
 }
 
 .footer-icon {
@@ -164,7 +201,8 @@
   transition: left 0.35s ease, right 0.35s ease;
 }
 
-.email-link {
+.email-link,
+.number-link {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.2rem;
@@ -215,7 +253,6 @@
 /**************************/
 
 .footer-copyright {
-  grid-area: copyright;
   color: #fff;
   font-size: 1.6rem;
   font-style: normal;
@@ -224,4 +261,5 @@
   letter-spacing: 0em;
   text-align: left;
   white-space: nowrap;
+  padding: 2.6rem;
 }
