@@ -9,10 +9,8 @@
   background: linear-gradient(to right, #347bce 50%, #fff 50%);
 }
 
-.footer-flex {
+.footer-wide {
   display: flex;
-  /* grid-template-columns: repeat (autofit, minmax(55rem, 50%));
-  grid-template-areas: "discuss contact"; */
 }
 
 .footer-heading {
@@ -38,7 +36,7 @@
 .footer-form {
   display: flex;
   flex-direction: column;
-  padding-right: 4.6rem;
+  padding-right: 5rem;
 }
 
 .footer-form input {
@@ -127,9 +125,7 @@
 /**************************/
 
 .contact-us {
-  /* grid-area: contact; */
   width: 50%;
-  /* flex-shrink: 0; */
   background-color: #fff;
   padding-left: 12.5rem;
 }

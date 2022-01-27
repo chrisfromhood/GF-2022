@@ -138,8 +138,6 @@
 }
 .hero-form-btn {
   display: flex;
-  /* align-self: center;
-  justify-self: flex-end; */
 }
 
 .btn-cta {
@@ -172,6 +170,14 @@
 
 .proven-strategies-img {
   grid-area: img;
+  justify-self: flex-start;
+  align-self: flex-end;
+}
+
+.svg-1 {
+  max-width: 75rem;
+  width: 100%;
+  height: auto;
 }
 
 .sub-heading {
@@ -222,9 +228,10 @@
   justify-self: flex-start;
   align-self: end;
 }
-.svg-1 {
+.svg-2 {
   max-width: 75rem;
-  width: 44.3vw;
+  width: 100%;
+  height: auto;
 }
 
 .what-we-do-text {

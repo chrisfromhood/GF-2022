@@ -1,6 +1,168 @@
-//1520px
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: red;
+@media screen and (max-width: 1580px) {
+  .what-we-do-grid {
+    grid-template-columns: 52% 48%;
+    grid-column-gap: 3rem;
+  }
+  .svg-2 {
+    max-width: 60rem;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .container {
+    max-width: 125rem;
+  }
+
+  .title {
+    margin-bottom: 3.6rem;
+  }
+
+  .heading-primary {
+    font-size: 5.4rem;
+  }
+
+  .svg-1 {
+    max-width: 60rem;
+  }
+  .svg-2 {
+    max-width: 55rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 56.25%;
+  }
+  .section-hero {
+    padding: 8rem 9rem 7rem 9rem;
+  }
+  .svg-2 {
+    max-width: 50rem;
+  }
+  .container-footer {
+    padding: 0 7.5rem;
+  }
+  .contact-us {
+    padding-left: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  .container {
+    max-width: 120rem;
+  }
+  .title {
+    font-size: 4.2rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .proven-strategies-grid {
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+
+  .proven-strategies-img {
+    grid-area: img;
+    justify-self: flex-end;
+    align-self: center;
+  }
+
+  .what-we-do-grid {
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+  }
+
+  .svg-1 {
+    min-width: 48rem;
+  }
+  .regular-text {
+    font-size: 1.8rem;
+  }
+  .mb-35 {
+    margin-bottom: 2.5rem;
+  }
+
+  .footer-heading {
+    font-size: 4.2rem;
+  }
+
+  .col-1 {
+    padding-right: 8rem;
+  }
+
+  .contact-us {
+    padding-left: 5rem;
+  }
+
+  .footer-copyright {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .regular-text {
+    font-size: 1.6rem;
+  }
+  .what-we-do-grid {
+    grid-template-columns: 48% 52%;
+    grid-column-gap: -1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .section-hero {
+    padding: 5rem 3rem 6rem 3rem;
+  }
+
+  .hero-form-wrapper {
+    padding: 1.6rem;
+  }
+
+  .hero-form input::-webkit-input-placeholder {
+    font-size: 1.6rem;
+  }
+
+  .hero-form .btn-cta {
+    margin-left: 0;
+  }
+
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .proven-strategies-grid {
+    display: grid;
+    grid-template-areas:
+      "title title"
+      "text img";
+  }
+
+  .svg-1 {
+    min-width: 35rem;
+  }
+
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .mb-35 {
+    margin-bottom: 2rem;
+  }
+
+  .footer-wide {
+    display: none;
   }
 }
