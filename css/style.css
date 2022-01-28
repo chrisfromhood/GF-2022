@@ -23,7 +23,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 4.5rem;
 }
 
 .main-nav-link {
@@ -187,11 +187,7 @@
   color: #304f95;
   margin: 2rem 0rem;
 }
-/* .proven-svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
+
 .regular-text {
   font-family: HelveticaNeueCyr;
   font-size: 2rem;

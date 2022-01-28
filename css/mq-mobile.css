@@ -1,0 +1,84 @@
+/**************************/
+/* BELOW 768px (Smaller tablets) */
+/**************************/
+.container {
+  padding: 0 12px;
+}
+/**************************/
+/* HERO-FORM */
+/**************************/
+
+@media screen and (max-width: 48em) {
+  .hero-text-box .heading-primary {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .section-hero {
+    padding: 21px 12px 30px;
+  }
+
+  .hero-description {
+    margin-bottom: 267px;
+  }
+
+  .hero-form {
+    flex-direction: column;
+  }
+  .hero-form-btn {
+    display: flex;
+    width: 100%;
+    padding: 0.8rem 0rem;
+  }
+  .hero-form-btn a {
+    width: 100%;
+  }
+  .btn-cta {
+    width: 100%;
+  }
+  .hero-form-name,
+  .hero-form-phone {
+    margin: 0;
+    padding: 0.8rem 0rem;
+  }
+
+  /**************************/
+  /* PROVEN STRATEGIES SECTION */
+  /**************************/
+  .proven-strategies-grid,
+  .what-we-do-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "img"
+      "text";
+    margin-bottom: 80px;
+  }
+  .proven-strategies-img,
+  .what-we-do-img {
+    justify-self: center;
+    align-self: center;
+  }
+  .svg-1,
+  .svg-2 {
+    width: 100%;
+    height: auto;
+    max-width: 60rem;
+    margin-bottom: 32px;
+  }
+  .regular-text {
+    font-size: 16px;
+  }
+
+  .what-we-do {
+    margin-top: 0px;
+  }
+
+  /**************************/
+  /*  FOOTER */
+  /**************************/
+
+  .footer-medium {
+    grid-template-columns: 1fr;
+  }
+}
