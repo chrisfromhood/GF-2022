@@ -220,6 +220,11 @@
     color: #343b43;
   }
 
+  .footer-icon {
+    left: 4px;
+    top: 10px;
+  }
+
   .footer-text-wrapper {
     padding-bottom: 27px;
   }
