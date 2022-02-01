@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="css/general.css" />
   <link rel="stylesheet" href="css/typography.css" />
+  <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/mqueries.css" />
@@ -18,27 +19,42 @@
 </head>
 
 <body>
-
-  <section class="page-header">
+  <section class="section-heading">
     <div class="container">
+      <header class="page-header">
+        <a class="nav-logo" href="#">
+          <img src="img/logo.png" alt="Growth Foundary logo" class="logo-img" />
+        </a>
 
-      <a class="main-logo" href="#">
-        <img src="img/logo.png" alt="Growth Foundary logo" class="header-logo" />
-      </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <div class="dropdown-item-and-icon">
+                <a class="main-nav-link" href="#">Media Buying</a>
+                <span><img class="arrow-down" src="img/icons/arrow-down.svg" alt="Arrow Down"></span>
+              </div>
+              <div class="dropdown-content">
+                <a href="#">Media Buying</a>
+                <a href="#">Facebook Ads</a>
+                <a href="#">Google Ads</a>
+              </div>
+            </li>
+            <li><a class="main-nav-link" href="#">Search</a></li>
+            <li><a class="main-nav-link" href="#">Saas Solutions</a></li>
+            <li><a class="main-nav-link" href="#">About us</a></li>
+          </ul>
+        </nav>
 
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Media Buying</a></li>
-          <li><a class="main-nav-link" href="#">Search</a></li>
-          <li><a class="main-nav-link" href="#">Saas Solutions</a></li>
-          <li><a class="main-nav-link" href="#">About us</a></li>
-        </ul>
+        <a class="btn nav-cta" href="">Get in Touch</a>
 
-      </nav>
-      <a class="btn nav-cta" href="">Get in Touch</a>
-      <button class="header-bars"></button>
+        <button class="btn-mobile-nav"></button>
+      </header>
+
+
+
     </div>
   </section>
+
 
   <section class="section-hero">
     <div class="container-hero">

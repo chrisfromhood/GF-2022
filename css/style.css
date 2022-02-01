@@ -1,44 +1,4 @@
 /**************************/
-/* HEADER */
-/**************************/
-.header-logo {
-  max-height: 6rem;
-  width: 100%;
-}
-
-/**************************/
-/* NAVIGATION */
-/**************************/
-.main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 13rem;
-}
-
-.nav-menu {
-  display: flex;
-}
-.main-nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 4.5rem;
-}
-
-.main-nav-link {
-  text-decoration: none;
-  font-size: 2rem;
-  color: inherit;
-}
-
-.btn-heading {
-  display: flex;
-  justify-content: end;
-  width: 18.5rem;
-}
-
-/**************************/
 /* SECTION - HERO */
 /**************************/
 
