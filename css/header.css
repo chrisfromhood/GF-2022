@@ -27,6 +27,7 @@
   display: flex;
   align-items: center;
   gap: 4.5rem;
+  white-space: nowrap;
 }
 
 .dropdown-item-and-icon {
@@ -35,6 +36,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
+  white-space: nowrap;
 }
 .arrow-down {
   display: inline-block;
@@ -56,9 +58,9 @@
   align-items: flex-start;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: -10px;
   background-color: #fff;
-  z-index: 1;
+  z-index: 10;
   white-space: nowrap;
   box-shadow: 0 20px 20px rgb(48 79 149 / 5%);
   padding: 15px 20px;
@@ -101,6 +103,7 @@
 .nav-cta {
   display: inline-flex;
   align-self: center;
+  white-space: nowrap;
 }
 
 .btn-mobile-nav {

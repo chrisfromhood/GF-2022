@@ -21,7 +21,6 @@
 @media screen and (max-width: 95em) {
   .container {
     max-width: 125rem;
-    overflow: auto;
   }
 
   .title {
