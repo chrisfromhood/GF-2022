@@ -1,14 +1,15 @@
 /**************************/
 /* BELOW 768px (Smaller tablets) */
 /**************************/
-.container {
-  padding: 0 12px;
-}
-/**************************/
-/* HERO-FORM */
-/**************************/
-
 @media screen and (max-width: 48em) {
+  .container {
+    padding: 0 12px;
+  }
+
+  /**************************/
+  /* HERO-FORM */
+  /**************************/
+
   .hero-text-box .heading-primary {
     font-size: 32px;
     text-align: center;

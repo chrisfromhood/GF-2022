@@ -5,8 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* height: 13rem; */
+  height: 13rem;
   padding: 3.5rem 0;
+  position: relative;
 }
 .nav-logo {
 }
@@ -18,6 +19,25 @@
 /**************************/
 /* NAVIGATION */
 /**************************/
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #304f95;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 .main-nav {
   display: block;
 }
@@ -104,8 +124,4 @@
   display: inline-flex;
   align-self: center;
   white-space: nowrap;
-}
-
-.btn-mobile-nav {
-  display: none;
 }
