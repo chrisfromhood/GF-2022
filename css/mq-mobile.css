@@ -74,12 +74,4 @@
   .what-we-do {
     margin-top: 0px;
   }
-
-  /**************************/
-  /*  FOOTER */
-  /**************************/
-
-  .footer-medium {
-    grid-template-columns: 1fr;
-  }
 }
