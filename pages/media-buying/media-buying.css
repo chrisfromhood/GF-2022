@@ -5,6 +5,8 @@
 
 .service-intro {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .img-svg {
@@ -65,4 +67,28 @@
   font-weight: 300;
   margin-top: 1rem;
   text-align: center;
+}
+/* ARTICLE 5 (TEXT ON LEFT SIDE) */
+.section-5 .article-text {
+  width: 48%;
+  max-width: 62rem;
+}
+
+.section-5 .img-svg {
+  width: 100%;
+  max-width: 84rem;
+}
+.section-5 .article-text {
+  align-self: left;
+  margin-right: 5%;
+  width: 45%;
+}
+
+/**************************/
+/* BELOW 1024px (Tablets) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .service-intro {
+    flex-direction: column;
+  }
 }
