@@ -6,7 +6,6 @@
 .service-intro {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .img-svg {
@@ -19,22 +18,26 @@
   width: 42%;
 }
 
-/* ARTICLE (TEXT ON RIGHT SIDE) */
+/* ARTICLE 2(TEXT ON RIGHT SIDE) */
 .article-text-right {
   align-self: center;
-  margin-left: 6%;
-  width: 42%;
+  margin-left: 4%;
+  width: 40%;
+}
+
+.short-text {
+  font-family: "RNSPhysis", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4.7rem;
 }
 
 .img-svg-left {
-  width: 52%;
+  width: 56%;
   max-width: 82rem;
-}
-
-/* ARTICLE (TEXT ON LEFT SIDE) */
-.article-text-3 {
-  width: 44%;
-  margin-right: 6%;
 }
 
 .main-btn {
@@ -43,45 +46,62 @@
   margin-top: 3.6rem;
 }
 
-.graphs-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* ARTICLE 3(TEXT ON LEFT SIDE) */
+.article-text-3 {
+  width: 41%;
+  margin-right: 4%;
 }
 
 .graph-wrapper {
-  /* margin: 2.4rem 0rem; */
+  width: 55%;
+  margin-top: 20rem;
 }
 
 .graph-21 {
   width: 100%;
+  max-width: 73rem;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 40px 60px rgb(35 78 175 / 8%);
+}
+/* ARTICLE 4(TEXT ON RIGHT SIDE) */
+.graphs-wrapper {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+}
+
+.graphs-wrapper .graph-wrapper {
+  width: 100%;
+  margin-top: 4.8rem;
 }
 
 .graph-label {
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 300;
-  margin-top: 1rem;
+  margin-top: 2.6rem;
   text-align: center;
 }
-/* ARTICLE 5 (TEXT ON LEFT SIDE) */
-.section-5 .article-text {
-  width: 48%;
-  max-width: 62rem;
+.graph-text-right {
+  width: 44%;
+  margin-left: 4%;
 }
 
+/* ARTICLE 5 (TEXT ON LEFT SIDE) */
+.section-5 .service-intro {
+  justify-content: flex-start;
+}
 .section-5 .img-svg {
   width: 100%;
   max-width: 84rem;
+  margin-top: 7%;
+  margin-right: -7%;
 }
 .section-5 .article-text {
-  align-self: left;
-  margin-right: 5%;
-  width: 45%;
+  margin-right: 4.5%;
+  width: 41%;
 }
 
 /**************************/
