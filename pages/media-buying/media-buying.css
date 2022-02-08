@@ -1,6 +1,7 @@
 .title {
   font-size: 4.8rem;
   margin-bottom: 2.4rem;
+  grid-area: title;
 }
 
 .service-intro {
@@ -51,14 +52,24 @@
 }
 
 /* ARTICLE 3(TEXT ON LEFT SIDE) */
+.section-3 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: minmax(max-content, auto);
+  grid-template-areas:
+    "title img"
+    "text img";
+}
 .article-text-3 {
-  width: 41%;
-  margin-right: 4%;
+  grid-area: text;
+  width: 89%;
+  margin-right: 15.6rem;
 }
 
 .graph-wrapper {
-  width: 55%;
-  margin-top: 20rem;
+  grid-area: img;
+  width: 100%;
+  align-self: center;
 }
 
 .graph-21 {
@@ -94,12 +105,19 @@
 }
 
 /* ARTICLE 5 (TEXT ON LEFT SIDE) */
-.section-5 .service-intro {
-  justify-content: flex-start;
+.section-5 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 46% 54%;
+  grid-template-rows: minmax(max-content, auto);
+  grid-template-areas:
+    "title img"
+    "text img";
 }
 .section-5 .img-svg {
-  width: 53.5%;
+  grid-area: img;
+  width: 100%;
   max-width: 84rem;
+  align-self: center;
   margin-top: 7%;
   margin-right: -7%;
 }
@@ -108,8 +126,9 @@
   max-width: 84rem;
 }
 .section-5 .article-text {
-  margin-right: 5%;
-  width: 41.5%;
+  grid-area: text;
+  width: 89%;
+  margin-right: auto;
 }
 /**************************/
 /* BELOW 1600px (Desktops) */
@@ -182,6 +201,9 @@
 /* BELOW 1024px (Tablets) */
 /**************************/
 @media screen and (max-width: 64em) {
+  .title {
+    font-size: 3.2rem;
+  }
   .service-intro {
     flex-wrap: wrap;
   }
@@ -205,5 +227,65 @@
   .article-text-right {
     width: 100%;
     margin: 0 auto;
+  }
+  .img-svg-left {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 66rem;
+    margin-bottom: 3rem;
+  }
+  .short-text {
+    margin-top: 0.6rem;
+  }
+  .main-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .section-3 .service-intro-grid,
+  .section-4 .service-intro,
+  .section-5 .service-intro-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .section-3 .graph-21,
+  .section-4 .graph-21 {
+    margin: 0 auto;
+    max-width: 92rem;
+  }
+  .graph-wrapper {
+    align-self: auto;
+  }
+  .graph-label {
+    margin: 1.2rem auto;
+  }
+  .mb-36 {
+    margin-bottom: 2.4rem;
+  }
+  .section-3 .article-text-3,
+  .section-4 .graph-text-right,
+  .section-5 .article-text {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .section-4 .graphs-wrapper {
+    margin: 0 auto;
+    max-width: 92rem;
+    width: 100%;
+  }
+  .pb-260 {
+    padding-bottom: 13rem;
+  }
+  .pb-180 {
+    padding-bottom: 4.8rem;
+  }
+  .section-5 .img-svg {
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 92rem;
+    width: 100%;
+  }
+  .section-5 .img-svg .service-svg-5 {
+    max-width: 87rem;
   }
 }
