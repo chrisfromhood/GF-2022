@@ -13,8 +13,9 @@ html {
 }
 
 body {
-  font-family: "RNSPhysis", sans-serif;
-  line-height: 1;
+  font-family: HelveticaNeueCyr, sans-serif;
+  font-size: 2rem;
+  line-height: 1.4;
   font-weight: 400;
   color: #343b43;
   background-color: #fafafa;
@@ -45,9 +46,9 @@ canvas {
 /**************************/
 
 .container {
-  max-width: 150rem;
+  max-width: 152.2rem;
   width: 100%;
-  padding: 0 1.5rem;
+  padding: 0 1.2rem;
   margin: 0 auto;
   overflow: visible;
 }
@@ -149,7 +150,7 @@ canvas {
 }
 
 /**************************/
-/* HEADINGS */
+/* HEADINGS and TEXT */
 /**************************/
 
 .heading-primary {
@@ -167,7 +168,23 @@ canvas {
   color: #304f95;
 }
 
-.heading-tertiary {
+.sub-heading {
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 1.3888888889;
+  color: #304f95;
+  margin: 2rem 0rem;
+  font-family: "RNSPhysis", sans-serif;
+}
+
+.regular-text {
+  font-family: HelveticaNeueCyr;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  color: #343b43;
 }
 
 .title {
@@ -175,6 +192,7 @@ canvas {
   line-height: 1.1;
   font-weight: 700;
   color: #304f95;
+  font-family: "RNSPhysis", sans-serif;
 }
 /**************************/
 /* BUTTONS */

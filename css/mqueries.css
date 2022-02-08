@@ -44,10 +44,6 @@
 /**************************/
 
 @media screen and (max-width: 88em) {
-  html {
-    /* 9px / 16px  */
-    font-size: 56.25%;
-  }
   .section-hero {
     padding: 8rem 9rem 7rem 9rem;
   }
@@ -117,11 +113,6 @@
 /**************************/
 
 @media screen and (max-width: 64em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    font-size: 50%;
-  }
-
   .heading-primary {
     font-size: 3.6rem;
     text-align: center;

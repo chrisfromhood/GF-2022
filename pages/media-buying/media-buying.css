@@ -19,6 +19,9 @@
 }
 
 /* ARTICLE 2(TEXT ON RIGHT SIDE) */
+.section-2 .service-intro {
+  justify-content: flex-start;
+}
 .article-text-right {
   align-self: center;
   margin-left: 4%;
@@ -29,7 +32,7 @@
   font-family: "RNSPhysis", sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
-  line-height: 3.3rem;
+  line-height: 1.375;
   letter-spacing: 0em;
   text-align: left;
   margin-top: 4.7rem;
@@ -38,6 +41,7 @@
 .img-svg-left {
   width: 56%;
   max-width: 82rem;
+  margin-left: -3%;
 }
 
 .main-btn {
@@ -94,21 +98,112 @@
   justify-content: flex-start;
 }
 .section-5 .img-svg {
-  width: 100%;
+  width: 53.5%;
   max-width: 84rem;
   margin-top: 7%;
   margin-right: -7%;
 }
-.section-5 .article-text {
-  margin-right: 4.5%;
-  width: 41%;
+.section-5 .img-svg .service-svg-5 {
+  width: 110%;
+  max-width: 84rem;
 }
-
+.section-5 .article-text {
+  margin-right: 5%;
+  width: 41.5%;
+}
+/**************************/
+/* BELOW 1600px (Desktops) */
+/**************************/
+@media screen and (max-width: 100em) {
+  .container {
+    padding: 0 2.4rem;
+  }
+  .section-5 .img-svg {
+    margin-right: 0;
+    max-width: 74rem;
+  }
+  .img-svg-left {
+    max-width: 76rem;
+    margin-left: 0;
+  }
+  .section-5 .img-svg .service-svg-5 {
+    width: 100%;
+  }
+}
+/**************************/
+/* BELOW 1408px (Laptops) */
+/**************************/
+@media screen and (max-width: 88em) {
+  .mb-36 {
+    margin-bottom: 2.8rem;
+  }
+  .title {
+    font-size: 3.8rem;
+  }
+  .section-5 .img-svg {
+    display: flex;
+    align-items: center;
+  }
+  .section-5 .img-svg .service-svg-5 {
+    max-width: 66rem;
+  }
+}
+/**************************/
+/* BELOW 1200px (Laptops) */
+/**************************/
+@media screen and (max-width: 75em) {
+  .title {
+    font-size: 3.6rem;
+  }
+  .sub-heading {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+  .short-text {
+    font-size: 2rem;
+  }
+  .regular-text {
+    line-height: 1.3;
+    font-size: 1.8rem;
+  }
+  .article-text {
+    margin-right: 2rem;
+    width: 49%;
+  }
+  .section-2 .service-intro {
+    justify-content: space-between;
+  }
+  .img-svg-left {
+    max-width: 57rem;
+    width: 52%;
+  }
+}
 /**************************/
 /* BELOW 1024px (Tablets) */
 /**************************/
 @media screen and (max-width: 64em) {
   .service-intro {
+    flex-wrap: wrap;
+  }
+  .article-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+  }
+
+  .img-svg {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section-2 .service-intro {
     flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .article-text-right {
+    width: 100%;
+    margin: 0 auto;
   }
 }
