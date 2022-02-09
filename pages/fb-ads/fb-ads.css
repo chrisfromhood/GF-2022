@@ -1,0 +1,40 @@
+/* FACEBOOK ADS AGENCY  */
+.service-intro-grid {
+  display: grid;
+  grid-template-columns: 43% 55%;
+  grid-template-rows: 4.4rem auto;
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.title {
+  margin-bottom: 2rem;
+  grid-area: title;
+}
+.article-text {
+  grid-area: text;
+  margin-right: 15rem;
+}
+.img-svg {
+  grid-area: img;
+}
+.main-btn {
+  display: inline-flex;
+}
+/* CLIENTS  */
+.clients-logos {
+  display: flex;
+  flex-direction: column;
+}
+.sub-heading--clients {
+  font-family: "RNSPhysis", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #343b43;
+  line-height: 1.375;
+}
+.title--clients {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
