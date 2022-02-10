@@ -49,3 +49,26 @@
   max-width: unset;
 }
 /* WIDE ARTICLE CONTENT, LONG HEADING SECTION  */
+.service-intro-flex {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.service-intro-flex .title-48 {
+  order: 1;
+}
+.service-intro-flex .article-text {
+  order: 2;
+}
+.service-intro-flex .img-svg {
+  margin-top: 9rem;
+  align-self: center;
+  order: 3;
+}
+.graph-label {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-weight: 300;
+  margin-top: 2.6rem;
+  text-align: center;
+}
