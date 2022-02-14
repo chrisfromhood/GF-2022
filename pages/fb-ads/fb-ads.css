@@ -1,8 +1,12 @@
 /* FACEBOOK ADS AGENCY  */
+.section-1 {
+  padding: 4rem 0rem 10rem;
+}
 .service-intro-grid {
   display: grid;
   grid-template-columns: 43% 55%;
   grid-template-rows: 4.4rem auto;
+  column-gap: 1rem;
   grid-template-areas:
     "title img"
     "text img";
@@ -14,15 +18,23 @@
 }
 .article-text {
   grid-area: text;
-  margin-right: 15rem;
+  margin-right: auto;
 }
 .img-svg {
   grid-area: img;
+  width: 100%;
+}
+.service-svg-2 {
+  margin-left: auto;
 }
 .main-btn {
   display: inline-flex;
 }
 /* CLIENTS  */
+.section-2 {
+  padding-bottom: 3rem;
+  margin-top: 8rem;
+}
 .clients-logos {
   display: flex;
   flex-direction: column;
@@ -49,6 +61,9 @@
   max-width: unset;
 }
 /* WIDE ARTICLE CONTENT, LONG HEADING SECTION  */
+.section-3 {
+  padding: 13rem 0rem 10rem;
+}
 .service-intro-flex {
   display: flex;
   flex-direction: column;
@@ -62,20 +77,30 @@
 }
 .service-intro-flex .img-svg {
   margin-top: 9rem;
+
   align-self: center;
   order: 3;
+}
+.graph-18 {
+  margin-left: auto;
+  margin-right: auto;
 }
 .graph-label {
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 300;
   margin-top: 2.6rem;
+  margin-bottom: 1.2rem;
   text-align: center;
 }
+
 /* WIDE ARTICLE CONTENT, LEFT PICTURE, RIGHT TEXT  */
-.service-grid {
+.section-4 {
+  padding: 5rem 0rem 10rem;
+}
+.section-4 .service-grid {
   display: grid;
-  grid-template-columns: 53% 47%;
+  grid-template-columns: 50% 50%;
   grid-template-areas:
     "title title"
     "img text";
@@ -84,35 +109,99 @@
   grid-area: title;
 }
 
-.service-grid .img-svg {
+.section-4 .service-grid .img-svg {
   background-color: #fff;
   box-shadow: 0 32px 60px rgb(35 78 175 / 4%);
   border-radius: 4px;
   padding: 6.8rem 0;
+  align-self: center;
 }
-
-.graph-18 {
+.graph-19 {
   width: 100%;
 }
-
 .service-grid .article-text-right {
   grid-area: text;
   margin-left: 5rem;
   align-self: center;
 }
 /* WIDE ARTICLE CONTENT, TITLE RIGHT */
+.section-5 {
+  padding: 14.4rem 0rem 11rem;
+}
 .section-5 .service-grid {
   display: grid;
-  grid-template-columns: 53% 47%;
+  grid-template-columns: 1.25fr 1fr;
   grid-template-areas:
     "img title"
     "img text";
 }
 .section-5 .title-48 {
-  margin-left: 11.6rem;
-  margin-bottom: -9.2rem;
+  margin-left: 4.6rem;
 }
 .section-5 .article-text-right {
-  margin-left: 11.6rem;
+  margin-left: 4.6rem;
   align-self: flex-start;
+}
+
+.section-5 .img-svg {
+  align-self: center;
+}
+.section-5 .graph-20 {
+  width: 100%;
+}
+
+/**************************/
+/* BELOW 1472px (Desktops) */
+/**************************/
+@media screen and (max-width: 92em) {
+  .container {
+    padding: 0 2.4rem;
+  }
+  .service-intro-grid .img-svg {
+    width: 75%;
+  }
+}
+/**************************/
+/* BELOW 1200px (Desktops) */
+/**************************/
+@media screen and (max-width: 75em) {
+  .service-intro-grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  .client-logo {
+    max-height: 5rem;
+  }
+  .img-logo {
+    margin-right: 4.8rem;
+  }
+  .sub-heading--clients {
+    font-size: 2rem;
+  }
+  .section-4 .service-grid .img-svg {
+    padding: 3.5rem 0;
+  }
+  .section-5 .service-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      ". title"
+      "img text";
+  }
+}
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .sub-heading--clients {
+    font-size: 1.6rem;
+  }
+
+  .service-intro-flex .article-text {
+    order: 3;
+  }
+  .service-intro-flex .img-svg {
+    margin-top: 0rem;
+    align-self: center;
+    order: 2;
+  }
 }

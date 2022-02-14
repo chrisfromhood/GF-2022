@@ -111,6 +111,9 @@ canvas {
 .mb-135 {
   margin-bottom: 13.5rem;
 }
+.mt-10 {
+  margin-top: 1rem;
+}
 .mt-30 {
   margin-top: 3rem;
 }
@@ -251,4 +254,39 @@ a {
 a,
 button {
   transition: color 0.35s ease, background 0.35s ease, border 0.35s ease;
+}
+/**************************/
+/* GENERAL MEDIA QUERIES */
+/**************************/
+
+/**************************/
+/* BELOW 1440px (Desktops) */
+/**************************/
+@media screen and (max-width: 90em) {
+  .title-48 {
+    font-size: 3.8rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Desktops) */
+/**************************/
+@media screen and (max-width: 75em) {
+  .regular-text {
+    font-size: 1.8rem;
+  }
+  .sub-heading {
+    font-size: 2.2rem;
+  }
+  .title-48 {
+    font-size: 3.6rem;
+  }
+}
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .title-48 {
+    font-size: 3.2rem;
+  }
 }
