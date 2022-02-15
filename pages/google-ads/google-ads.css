@@ -1,0 +1,117 @@
+/* PPC: GOOGLE ADS MANAGEMENT CO.  */
+.section-1 {
+  padding: 4rem 0rem 10rem;
+}
+.service-intro-grid {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.section-1 .title {
+  margin-bottom: 2rem;
+  grid-area: title;
+}
+.article-text {
+  grid-area: text;
+  margin-right: auto;
+}
+.img-svg {
+  grid-area: img;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+}
+.service-svg-2 {
+  margin-left: auto;
+}
+
+.dark {
+  margin-left: 3.2rem;
+  background: #343b43 !important;
+}
+/* GOOGLE ADWORDS */
+.section-2 {
+  padding: 14.8rem 0rem 11.6rem;
+}
+
+.section-2 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 48% 52%;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "text form"
+    "text form";
+}
+.section-2 .left-text {
+  margin-right: 14.6rem;
+  grid-area: text;
+}
+.section-2 .title-48 {
+  margin-bottom: 6.6rem;
+}
+
+.form-wrapper-right {
+  grid-area: form;
+  margin-left: 10rem;
+}
+.service-form {
+  margin-top: 0;
+  padding: 60px 24px;
+  background-color: #fff;
+  box-shadow: 0 32px 60px rgb(35 78 175 / 4%);
+  border-radius: 8px;
+}
+
+/* STOP LOSING MONEY ON ADS */
+.section-3 {
+  padding: 14.8rem 0rem 11.6rem;
+}
+.section-3 .service-intro {
+  display: flex;
+  justify-content: flex-start;
+}
+.article-text-right {
+  align-self: center;
+  margin-left: 4%;
+  width: 40%;
+}
+
+.short-text {
+  font-family: "RNSPhysis", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4.7rem;
+}
+
+.img-svg-left {
+  width: 56%;
+  max-width: 82rem;
+  margin-left: -3%;
+}
+
+.main-btn {
+  display: inline-flex;
+  height: 6.4rem;
+  margin-top: 3.6rem;
+}
+/* TWO COL OF ARTICLE CONTENT */
+.section-4 {
+  padding-top: 4.8rem;
+}
+.section-4 .two-col-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  grid-column-gap: 26.4rem;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "col-1 col-2";
+}
+.col-1 {
+  padding-right: 0;
+}

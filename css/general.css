@@ -224,6 +224,7 @@ canvas {
 /**************************/
 
 .btn {
+  display: inline-flex;
   height: 5.6rem;
   background: linear-gradient(56.83deg, #234dae 8.11%, #347bce 90.67%);
   background-size: 100% 100%;
