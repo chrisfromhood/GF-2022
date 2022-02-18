@@ -11,7 +11,7 @@
     "text img";
 }
 
-.section-1 .title {
+.section-1 .title-48 {
   margin-bottom: 2rem;
   grid-area: title;
 }
@@ -40,30 +40,112 @@
 
 .section-2 .service-intro-grid {
   display: grid;
-  grid-template-columns: 48% 52%;
+  grid-template-columns: 50% 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "text form"
     "text form";
 }
 .section-2 .left-text {
-  margin-right: 14.6rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   grid-area: text;
 }
 .section-2 .title-48 {
   margin-bottom: 6.6rem;
 }
 
+/* FORM */
 .form-wrapper-right {
   grid-area: form;
-  margin-left: 10rem;
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
 }
 .service-form {
+  width: 46.4rem;
+  display: flex;
+  flex-direction: column;
   margin-top: 0;
-  padding: 60px 24px;
+  padding: 6rem 2.4rem;
   background-color: #fff;
   box-shadow: 0 32px 60px rgb(35 78 175 / 4%);
   border-radius: 8px;
+}
+.service-form input {
+  border-bottom: 1px solid #f0f0f0;
+  display: block;
+  width: 100%;
+  height: 5.4rem;
+  padding-left: 4.6rem;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  transition: border 0.35s ease;
+  font-family: "RNSPhysis", sans-serif;
+}
+.service-form-name,
+.service-form-email,
+.service-form-phone,
+.service-form-web {
+  position: relative;
+  width: 100%;
+}
+
+.service-form-email,
+.service-form-phone,
+.service-form-web,
+.service-form-budget {
+  margin-top: 3.2rem;
+}
+.service-form-budget {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-form input:focus {
+  border-bottom-color: #304f95;
+}
+
+.small-icon {
+  position: absolute;
+  left: 5px;
+  top: 15px;
+  transition: color 0.35s ease;
+}
+
+.form-label {
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "RNSPhysis", sans-serif;
+  margin-bottom: 0.4rem;
+}
+.form-select {
+  padding: 1px;
+  border-radius: 4px;
+  background-color: #fff;
+  position: relative;
+  background: linear-gradient(0deg, rgb(240 240 240 / 0%), #f0f0f0);
+}
+.form-select select {
+  height: 64px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "RNSPhysis", sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  border-radius: 4px;
+  border: 0;
+  background-color: #fff;
+  padding: 0 14px;
+}
+.schedule {
+  margin-top: 3.2rem;
 }
 
 /* STOP LOSING MONEY ON ADS */
@@ -108,10 +190,109 @@
 .section-4 .two-col-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
-  grid-column-gap: 26.4rem;
   grid-template-rows: auto 1fr;
   grid-template-areas: "col-1 col-2";
 }
-.col-1 {
-  padding-right: 0;
+.col-1-text,
+.col-2-text {
+  display: flex;
+  flex-direction: column;
+}
+.col-1-text {
+  margin-right: auto;
+  padding-right: 17rem;
+}
+.col-2-text {
+  margin-left: auto;
+  padding-left: 15rem;
+}
+
+/* TWO COL OF ARTICLE CONTENT */
+.section-5 {
+  padding: 9rem 0rem;
+}
+.section-5 .two-col-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  grid-column-gap: 12.8rem;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "col-1 col-2";
+}
+/**************************/
+/* BELOW 1632px (Desktops) */
+/**************************/
+@media screen and (max-width: 102em) {
+  .section-3 .img-svg-left {
+    margin-left: 0;
+  }
+  .col-1-text {
+    margin-right: auto;
+  }
+  .col-2-text {
+    margin-left: auto;
+  }
+}
+/**************************/
+/* BELOW 1200px (Desktops) */
+/**************************/
+@media screen and (max-width: 75em) {
+  .section-1 {
+    padding: 2rem 0rem;
+  }
+  .form-wrapper-right {
+    margin-left: 10rem;
+  }
+  .service-form {
+    width: 40rem;
+  }
+}
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .section-1 .service-intro-grid {
+    grid-template-areas:
+      "title title"
+      "text img";
+  }
+  .section-1 .service-svg-2 {
+    width: 90%;
+  }
+  .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-1 .btn {
+    width: 50%;
+    padding: 0 2rem;
+  }
+  .form-wrapper-right {
+    margin-left: 5rem;
+  }
+  .service-form {
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  .service-form-email,
+  .service-form-phone,
+  .service-form-web,
+  .service-form-budget {
+    margin-top: 1.6rem;
+  }
+  .section-2 .title-48 {
+    margin-bottom: 2.4rem;
+  }
+  .section-2 .left-text {
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+}
+/**************************/
+/* BELOW 848px (Desktops) */
+/**************************/
+@media screen and (max-width: 53em) {
+  .form-wrapper-right {
+    margin-left: 1.6rem;
+  }
 }

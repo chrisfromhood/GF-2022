@@ -21,6 +21,15 @@ body {
   background-color: #fafafa;
   overflow-x: hidden;
 }
+input {
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
 
 img,
 svg,
@@ -225,6 +234,7 @@ canvas {
 
 .btn {
   display: inline-flex;
+  justify-content: center;
   height: 5.6rem;
   background: linear-gradient(56.83deg, #234dae 8.11%, #347bce 90.67%);
   background-size: 100% 100%;
@@ -240,6 +250,10 @@ canvas {
   font-weight: 500;
   align-items: center;
   border: none;
+}
+.btn:hover {
+  color: #fff;
+  background-size: 250% 100%;
 }
 
 .svg {
@@ -292,5 +306,11 @@ button {
   }
   .regular-text {
     font-size: 1.6rem;
+  }
+  .btn {
+    height: 5.9rem;
+    font-size: 1.6rem;
+    width: 100%;
+    font-weight: 500;
   }
 }
