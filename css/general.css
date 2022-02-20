@@ -56,7 +56,7 @@ canvas {
 .container {
   max-width: 152.2rem;
   width: 100%;
-  padding: 0 1.2rem;
+  /* padding: 0 1.2rem; */
   margin: 0 auto;
   overflow: visible;
 }
@@ -214,6 +214,16 @@ canvas {
   color: #343b43;
 }
 
+.short-text {
+  font-family: "RNSPhysis", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4.7rem;
+}
+
 .title {
   font-size: 4.2rem;
   line-height: 1.1;
@@ -251,10 +261,6 @@ canvas {
   align-items: center;
   border: none;
 }
-.btn:hover {
-  color: #fff;
-  background-size: 250% 100%;
-}
 
 .svg {
   width: 100%;
@@ -273,12 +279,20 @@ button {
 /**************************/
 /* GENERAL MEDIA QUERIES */
 /**************************/
-
+/**************************/
+/* BELOW 1600px (Desktops) */
+/**************************/
+@media screen and (max-width: 100em) {
+  .container {
+    padding: 0rem 3.2rem;
+  }
+}
 /**************************/
 /* BELOW 1440px (Desktops) */
 /**************************/
 @media screen and (max-width: 90em) {
-  .title-48 {
+  .title-48,
+  .title {
     font-size: 3.8rem;
   }
 }
@@ -293,18 +307,26 @@ button {
   .sub-heading {
     font-size: 2.2rem;
   }
-  .title-48 {
+  .title-48,
+  .title {
     font-size: 3.6rem;
+  }
+  .short-text {
+    font-size: 2rem;
   }
 }
 /**************************/
 /* BELOW 1024px (Desktops) */
 /**************************/
 @media screen and (max-width: 64em) {
-  .title-48 {
+  .title-48,
+  .title {
     font-size: 3.2rem;
   }
   .regular-text {
+    font-size: 1.6rem;
+  }
+  .short-text {
     font-size: 1.6rem;
   }
   .btn {
@@ -312,5 +334,20 @@ button {
     font-size: 1.6rem;
     width: 100%;
     font-weight: 500;
+  }
+}
+
+/**************************/
+/* BELOW 768px (Mobile) */
+/**************************/
+@media screen and (max-width: 48em) {
+  .container {
+    padding: 0rem 1.2rem;
+  }
+  .mb-30 {
+    margin-bottom: 2rem;
+  }
+  .short-text {
+    margin-top: 2rem;
   }
 }
