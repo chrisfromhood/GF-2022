@@ -1,0 +1,61 @@
+/* SAAS MARKETING AGENCY  */
+.section-1 {
+  padding: 4rem 0rem 10rem;
+}
+.service-intro-grid {
+  display: grid;
+  grid-template-columns: 43% 55%;
+  column-gap: 1rem;
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.section-1 .title {
+  margin-bottom: 2rem;
+  grid-area: title;
+}
+.article-text {
+  grid-area: text;
+  margin-right: auto;
+}
+.img-svg {
+  display: flex;
+  grid-area: img;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 75em) {
+  .service-intro-grid {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .section-1 .service-intro-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0rem;
+    grid-template-areas:
+      "title title"
+      "text img";
+  }
+
+  .section-1 .title {
+    margin-bottom: 0rem;
+  }
+
+  .section-1 .img-svg {
+    grid-area: img;
+    width: 95%;
+    align-self: flex-end;
+    justify-self: flex-end;
+  }
+
+  .section-1 {
+    padding: 0rem 0rem 2rem;
+  }
+}
