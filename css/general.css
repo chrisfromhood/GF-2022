@@ -141,7 +141,9 @@ canvas {
 .ml-48 {
   margin-left: 4.8rem;
 }
-
+/**************************/
+/* PADDINGS */
+/**************************/
 .px-35 {
   padding-left: 3.5rem !important;
   padding-right: 3.5rem !important;
@@ -195,6 +197,13 @@ canvas {
   color: #304f95;
 }
 
+.heading-slider {
+  margin: 3.7rem auto 1.8rem;
+  width: 90%;
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
 .sub-heading {
   font-weight: 300;
   font-size: 2.4rem;
@@ -237,6 +246,9 @@ canvas {
   font-weight: 700;
   color: #304f95;
   font-family: "RNSPhysis", sans-serif;
+}
+.txt-centered {
+  text-align: center;
 }
 /**************************/
 /* BUTTONS */
