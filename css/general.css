@@ -356,6 +356,9 @@ button {
   .container {
     padding: 0rem 1.2rem;
   }
+  .title-48 {
+    font-size: 2.4rem;
+  }
   .mb-30 {
     margin-bottom: 2rem;
   }
