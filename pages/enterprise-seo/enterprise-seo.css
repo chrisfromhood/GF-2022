@@ -76,6 +76,32 @@
   padding-left: 9rem;
 }
 
+.section-4 {
+  padding: 0rem 0rem 10rem;
+}
+.service-benefits-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.service-benefits-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.svg-wrapper {
+  align-self: center;
+}
+.service-benefits-text {
+  text-align: center;
+}
+.service-benefits-text .regular-text {
+  margin-top: 2.4rem;
+  font-size: 2rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
 /**************************/
 /* M E D I A   Q U I E R I E S */
 /**************************/
@@ -84,103 +110,139 @@
 /* BELOW 1440px (Desktops) */
 /**************************/
 @media screen and (max-width: 90em) {
-  .section-3 .service-process-grid {
-    column-gap: 12rem;
+  .section-1 .article-text {
+    padding-right: 4rem;
+  }
+  .section-3 .col-1-text {
+    padding-right: 7.6rem;
+  }
+  .section-3 .col-2-text {
+    padding-left: 7.6rem;
+  }
+}
+/**************************/
+/* BELOW 1200px (Desktops) */
+/**************************/
+@media screen and (max-width: 75em) {
+  .section-1 {
+    padding: 2rem 0rem;
+  }
+  .section-1 .article-text {
+    padding-right: 0rem;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+  .section-3 .col-1-text {
+    padding-right: 4.8rem;
+  }
+  .section-3 .col-2-text {
+    padding-left: 4.2rem;
+  }
+  .service-intro-grid {
+    grid-template-columns: 50% 50%;
+  }
+  .section-3 .article-text {
+    margin: 0 auto;
+  }
+}
+
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .section-1 {
+    padding: 0rem 0rem 2rem;
   }
 
-  /**************************/
-  /* BELOW 1200px (Desktops) */
-  /**************************/
-  @media screen and (max-width: 75em) {
-    .btn {
-      font-size: 2rem;
-    }
-    .section-3 .service-process-grid {
-      column-gap: 9rem;
-    }
-    .service-intro-grid {
-      grid-template-columns: 50% 50%;
-    }
-    .section-3 .article-text {
-      margin: 0 auto;
-    }
+  .section-1 .service-intro-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6rem auto;
+    grid-template-areas:
+      "title title"
+      "text img";
   }
 
-  /**************************/
-  /* BELOW 1024px (Desktops) */
-  /**************************/
-  @media screen and (max-width: 64em) {
-    .section-1 .service-intro-grid {
-      grid-template-areas:
-        "title title"
-        "text img";
-    }
-
-    .section-1 .title {
-      margin-bottom: 0rem;
-    }
-
-    .section-1 .img-svg {
-      grid-area: img;
-      width: 95%;
-      align-self: flex-end;
-      justify-self: flex-end;
-    }
-
-    .section-1 {
-      padding: 0rem 0rem 2rem;
-    }
-
-    .section-2 .service-intro-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "content"
-        "content";
-    }
-    .hex-content {
-      max-width: 50rem;
-      max-height: 48rem;
-      justify-self: center;
-      align-self: center;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .btn {
-      font-size: 1.8rem;
-      height: 6rem;
-    }
-    .section-3 .service-process-grid {
-      column-gap: 6.4rem;
-    }
-    .section-3 .saas-article-text .regular-text {
-      font-size: 1.6rem;
-    }
+  .section-1 .sub-heading {
+    font-size: 2rem;
   }
 
-  /**************************/
-  /* BELOW 768px (Mobile) */
-  /**************************/
-  @media screen and (max-width: 48em) {
-    .section-1 .service-intro-grid {
-      grid-template-areas:
-        "title title"
-        "img img"
-        "text text";
-    }
-    .section-1 .img-svg {
-      width: 90%;
-      align-self: center;
-      justify-self: center;
-    }
-    .section-1 .title {
-      margin-bottom: 2rem;
-    }
-    .main-btn {
-      margin-top: 2rem;
-    }
-    .btn {
-      font-size: 1.6rem;
-    }
+  .section-1 .title {
+    margin-bottom: 2rem;
+  }
+
+  .section-1 .img-svg {
+    grid-area: img;
+    width: 100%;
+    align-self: center;
+  }
+
+  .section-2 .service-intro-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content"
+      "content";
+  }
+  .hex-content {
+    max-width: 50rem;
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7rem 6rem;
+  }
+  .btn {
+    font-size: 1.8rem;
+    height: 6rem;
+  }
+  .section-3 {
+    padding: 5rem 0rem;
+  }
+  .section-3 .saas-article-text .regular-text {
+    font-size: 1.6rem;
+  }
+}
+/**************************/
+/* BELOW 960px (Mobile) */
+/**************************/
+@media screen and (max-width: 60em) {
+  .section-3 .col-1-text {
+    padding-right: 2.4rem;
+  }
+  .section-3 .col-2-text {
+    padding-left: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 768px (Mobile) */
+/**************************/
+@media screen and (max-width: 48em) {
+  .section-1 .service-intro-grid {
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title title"
+      "img img"
+      "text text";
+  }
+
+  .section-1 .title {
+    margin-bottom: 2rem;
+  }
+  .main-btn {
+    margin-top: 2rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+  }
+  .section-3 {
+    padding: 0rem;
+  }
+  .section-3 .two-col-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-3 .col-2-text {
+    padding-left: 0rem;
   }
 }
