@@ -76,32 +76,102 @@
   padding-left: 9rem;
 }
 
-.section-4 {
-  padding: 0rem 0rem 10rem;
+/* SLIDERS   */
+
+/* 1/5 */
+.slider-1,
+.slider-2,
+.slider-3,
+.slider-4,
+.slider-5 {
+  background: #fff;
 }
-.service-benefits-list {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.service-benefits-item {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5rem;
-}
-.svg-wrapper {
-  align-self: center;
-}
-.service-benefits-text {
-  text-align: center;
-}
-.service-benefits-text .regular-text {
-  margin-top: 2.4rem;
-  font-size: 2rem;
-  line-height: 1.4;
-  text-align: center;
+.slider-1 .service-intro-grid,
+.slider-2 .service-intro-grid,
+.slider-4 .service-intro-grid,
+.slider-5 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: minmax(max-content, auto);
+  grid-template-areas:
+    "title img"
+    "text img";
 }
 
+.slider-1 .article-text-3 {
+  grid-area: text;
+  margin-right: 16rem;
+}
+
+.title-48 {
+  grid-area: title;
+  margin: 5rem 0rem 2.4rem;
+}
+
+.graph-wrapper {
+  grid-area: img;
+  width: 100%;
+  padding: 6.5rem 3.7rem;
+}
+
+.graph-21 {
+  width: 100%;
+  max-width: 73rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 40px 60px rgb(35 78 175 / 8%);
+}
+
+/* 2/5 */
+
+.slider-2 .article-text-3 {
+  grid-area: text;
+  margin-right: 16.3rem;
+}
+
+.slider-2 .title-48 {
+  grid-area: title;
+  margin: 5rem 0rem 2.4rem;
+  width: 60%;
+}
+/* 3/5 */
+.slider-3 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "img "
+    "title "
+    "text";
+}
+
+.slider-3 .graph-horizontal {
+  width: 100%;
+  box-shadow: 0 40px 60px rgb(35 78 175 / 8%);
+}
+
+/* 4/5 */
+
+.slider-4 .service-intro-grid {
+  grid-template-rows: 18rem auto;
+}
+
+.slider-4 .article-text-3 {
+  grid-area: text;
+  margin-right: 16.3rem;
+}
+
+/* 5/5 */
+.slider-5 .title-48 {
+  grid-area: title;
+  margin: 5rem 0rem 2.4rem;
+  width: 60%;
+}
+
+.slider-5 .article-text-3 {
+  grid-area: text;
+  margin-right: 16.3rem;
+}
 /**************************/
 /* M E D I A   Q U I E R I E S */
 /**************************/
