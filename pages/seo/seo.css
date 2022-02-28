@@ -1,0 +1,236 @@
+/* SAAS MARKETING AGENCY  */
+.section-1 {
+  padding: 4rem 0rem 10rem;
+}
+.section-1 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 4.2rem auto;
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.section-1 .title {
+  grid-area: title;
+}
+.article-text {
+  grid-area: text;
+  padding-right: 10rem;
+}
+.img-svg {
+  display: flex;
+  grid-area: img;
+  justify-content: center;
+  width: 100%;
+  height: 58rem;
+}
+/* SERVICE HEX   */
+.section-2 {
+  padding: 6.4rem 0rem;
+}
+.section-2 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "content ."
+    "content .";
+}
+.hex-content {
+  background: #fff;
+  display: block;
+  text-align: left;
+  padding: 7rem 10rem;
+  padding-right: 12rem;
+}
+.main-btn {
+  margin-top: 4.6rem;
+}
+.btn {
+  padding: 0 5rem;
+  font-size: 2.4rem;
+  height: 6.4rem;
+  width: auto;
+}
+
+.section-3 .service-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 60%;
+  grid-template-rows: minmax(max-content, auto);
+  grid-template-areas:
+    "title img"
+    "text img";
+}
+
+.section-3 .article-text-3 {
+  grid-area: text;
+  margin-right: 16rem;
+}
+
+.title-48 {
+  grid-area: title;
+  margin: 5rem 0rem 2.4rem;
+}
+
+.graph-wrapper {
+  grid-area: img;
+  width: 100%;
+  padding: 6.5rem 3.7rem;
+}
+
+.graph-21 {
+  width: 100%;
+  max-width: 73rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 40px 60px rgb(35 78 175 / 8%);
+}
+
+/**************************/
+/* M E D I A   Q U I E R I E S */
+/**************************/
+/**************************/
+/* BELOW 1520px (Desktops) */
+/**************************/
+@media screen and (max-width: 95em) {
+}
+/**************************/
+/* BELOW 1440px (Desktops) */
+/**************************/
+@media screen and (max-width: 90em) {
+  .section-1 .article-text {
+    padding-right: 4rem;
+  }
+  .section-3 .col-1-text {
+    padding-right: 7.6rem;
+  }
+}
+/**************************/
+/* BELOW 1200px (Desktops) */
+/**************************/
+@media screen and (max-width: 75em) {
+  .section-1 {
+    padding: 2rem 0rem;
+  }
+  .section-1 .article-text {
+    padding-right: 1rem;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+
+  .img-svg {
+    align-items: flex-start;
+    height: auto;
+  }
+}
+
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .section-1 {
+    padding: 0rem 0rem 2rem;
+  }
+
+  .section-1 .service-intro-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3.6rem auto;
+  }
+
+  .section-1 .sub-heading {
+    font-size: 2rem;
+  }
+
+  .section-1 .title {
+    margin-bottom: 2rem;
+  }
+
+  .section-1 .img-svg {
+    grid-area: img;
+    width: 100%;
+    align-self: center;
+  }
+
+  .section-2 .service-intro-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content"
+      "content";
+  }
+  .hex-content {
+    max-width: 50rem;
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7rem 6rem;
+  }
+  .btn {
+    font-size: 1.8rem;
+    height: 6rem;
+  }
+  .section-3 {
+    padding: 5rem 0rem;
+  }
+  .section-3 .saas-article-text .regular-text {
+    font-size: 1.6rem;
+  }
+  .slider-1 .service-intro-grid,
+  .slider-2 .service-intro-grid,
+  .slider-4 .service-intro-grid,
+  .slider-5 .service-intro-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title"
+      "img"
+      "text";
+  }
+
+  .graph-wrapper {
+    padding: 0rem;
+    margin-bottom: 2rem;
+  }
+  .mb-36 {
+    margin-bottom: 2.4rem;
+  }
+}
+/**************************/
+/* BELOW 960px (Mobile) */
+/**************************/
+@media screen and (max-width: 60em) {
+  .section-3 .col-1-text {
+    padding-right: 2.4rem;
+  }
+  .section-3 .col-2-text {
+    padding-left: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 768px (Mobile) */
+/**************************/
+@media screen and (max-width: 48em) {
+  .section-1 .service-intro-grid {
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title title"
+      "img img"
+      "text text";
+  }
+
+  .section-1 .title {
+    margin-bottom: 2rem;
+  }
+  .main-btn {
+    margin-top: 2rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+  }
+  .section-3 {
+    padding: 0rem;
+  }
+}
