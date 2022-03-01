@@ -89,6 +89,11 @@ canvas {
   flex-grow: 1;
   max-width: 100%;
 }
+
+.w-100 {
+  width: 100%;
+}
+
 /**************************/
 /* MARGINS */
 /**************************/
@@ -100,6 +105,12 @@ canvas {
 }
 .mb-24 {
   margin-bottom: 2.4rem;
+}
+.mb-26 {
+  margin-bottom: 2.6rem;
+}
+.mb-28 {
+  margin-bottom: 2.8rem;
 }
 
 .mb-30 {
@@ -148,6 +159,7 @@ canvas {
   padding-left: 3.5rem !important;
   padding-right: 3.5rem !important;
 }
+
 .pl-60 {
   padding-left: 6rem;
 }
@@ -176,6 +188,10 @@ canvas {
 
 .pt-80 {
   padding-top: 8rem;
+}
+
+.pr-10 {
+  padding-right: 10rem;
 }
 
 /**************************/
