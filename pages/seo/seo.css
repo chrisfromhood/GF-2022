@@ -43,10 +43,10 @@
   padding: 7rem 10rem;
   padding-right: 12rem;
 }
-.main-btn {
+.section-2 .main-btn {
   margin-top: 4.6rem;
 }
-.btn {
+.section-2 .btn {
   padding: 0 5rem;
   font-size: 2.4rem;
   height: 6.4rem;
@@ -165,6 +165,29 @@
 .section-6 .article-text-3 {
   grid-area: text;
   display: flex;
+}
+
+/* Service SEO PLAN section-7 */
+
+.section-7 {
+  padding: 14.4rem 0rem 11rem;
+}
+
+.service-seo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.service-seo-item .title-48 {
+  padding: 0 36rem;
+  text-align: center;
+  margin-bottom: 0;
+  color: #343b43;
+}
+.service-seo-item .regular-text {
+  padding: 3rem 29rem;
 }
 
 /**************************/
@@ -317,7 +340,7 @@
     text-align: center;
     padding: 7rem 6rem;
   }
-  .btn {
+  .section-2 .btn {
     font-size: 1.8rem;
     height: 6rem;
   }
@@ -379,6 +402,20 @@
     display: flex;
     flex-direction: column;
   }
+  .service-seo-item .title-48 {
+    padding: 0;
+    color: #304f95;
+  }
+  .service-seo-item .regular-text {
+    padding: 0;
+    padding-top: 2.4rem;
+    padding-bottom: 2.6rem;
+    text-align: center;
+  }
+  .section-7 .btn {
+    width: auto;
+    height: 5.6rem;
+  }
 }
 /**************************/
 /* BETWEEN 1024px and 768px (Tablets) */
@@ -439,5 +476,22 @@
   .section-5,
   .section-6 {
     padding: 2.4rem 0rem;
+  }
+  .service-seo-item .title-48 {
+    text-align: left;
+  }
+  .service-seo-item .regular-text {
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+  .section-7 .btn {
+    width: 100%;
+  }
+  .service-seo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
