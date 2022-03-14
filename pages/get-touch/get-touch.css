@@ -1,4 +1,48 @@
 /* GET IN TOUCH  SECTION*/
+.get-touch .container {
+  display: flex;
+}
+
+.get-touch .heading-primary {
+  margin-bottom: 5.8rem;
+}
+
+.contacts-item .title-48 {
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+.contacts-map {
+  width: 67.5rem;
+  height: 74.5rem;
+  background-color: aquamarine;
+  margin-left: 4rem;
+  text-align: center;
+}
+.contacts__itm-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #343b43;
+  padding: 0 24px 0 54px;
+}
+.link-itm {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-itm .email-link,
+.link-itm .number-link {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "RNSPhysis", sans-serif;
+}
 
 /**************************/
 /* M E D I A   Q U I E R I E S */
