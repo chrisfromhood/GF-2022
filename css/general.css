@@ -363,7 +363,8 @@ button {
 /**************************/
 @media screen and (max-width: 64em) {
   .title-48,
-  .title {
+  .title,
+  .heading-primary {
     font-size: 3.2rem;
   }
   .regular-text {
