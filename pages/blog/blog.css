@@ -1,0 +1,111 @@
+/* GET IN TOUCH  SECTION*/
+.blog {
+  padding: 3.5rem 0rem 2.3rem;
+}
+.blog-title {
+  font-size: 6.4rem;
+  font-weight: 900;
+  line-height: 1.1;
+  font-family: "RNSPhysis", sans-serif;
+}
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap: 4.5rem 1.6rem;
+  margin-top: 3.2rem;
+}
+.blog-article {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  width: 43.9rem;
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #f0f0f0 0%, rgba(240, 240, 240, 0) 100%);
+}
+
+.blog-img-wrapper {
+  position: static;
+  width: 439px;
+  height: 213px;
+  left: 12px;
+  top: 12px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.blog-img {
+  margin: 1.2rem;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  max-height: 21.3rem;
+  object-fit: cover;
+}
+
+.article-body {
+  margin: 1.2rem 1.2rem 2.4rem;
+}
+
+.title-article {
+  font-family: RNS Physis;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.text-article {
+  font-family: HelveticaNeueCyr;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.7rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.footer-article {
+  font-family: RNS Physis;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #343b4380;
+}
+
+/**************************/
+/* M E D I A   Q U I E R I E S */
+/**************************/
+/**************************/
+
+/**************************/
+/* BELOW 1200px (Desktops) */
+/**************************/
+@media screen and (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 1024px (Desktops) */
+/**************************/
+@media screen and (max-width: 64em) {
+  .contacts-map {
+    display: none;
+  }
+  .contacts-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .contacts-info .btn {
+    margin-bottom: 3.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 768px (Mobile) */
+/**************************/
+@media screen and (max-width: 48em) {
+}
